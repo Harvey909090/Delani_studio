@@ -1,6 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Pushster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Pushster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  font-family: "Pushster", cursive;
+}
+p {
+  font-family: "PT Sans", sans-serif;
+}
+h3,
+h4 {
+  font-family: "Lato", sans-serif;
 }
