@@ -36,3 +36,8 @@ $(document).ready(() => {
   });
 
 });
+
+const footer = document.getElementById("footer");
+const datek = new Date();
+const year = datek.getFullYear();
+footer.innerHTML = `DELANI STUDIO ${year}`;
