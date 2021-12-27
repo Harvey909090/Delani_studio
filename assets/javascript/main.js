@@ -29,5 +29,10 @@ $(document).ready(() => {
     $(".show-icon2").show();
     $(".hide-content2").hide();
   });
+  
+   //portfolio hover
+  $(".card").hover(function () {
+    $(this).children(".project-name").fadeToggle(1000, "linear");
+  });
 
 });
