@@ -37,11 +37,11 @@ $(document).ready(() => {
 
 
   //feedback
-  $(".btn").on("click",($event)=>{
-    let nameValue = $("#mce-FNAME").val();
-    alert(`${nameValue} we have received your message. Thank you fro reaching out to us.`)
-    $event.preventDefault()
-  });
+  //$(".btn").on("click",($event)=>{
+   // let nameValue = $("#mce-FNAME").val();
+   // alert(`${nameValue} we have received your message. Thank you fro reaching out to us.`)
+    //$event.preventDefault()
+ // });
 
 
   //disable submit button
