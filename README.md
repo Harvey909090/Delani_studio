@@ -6,7 +6,7 @@ This is a landing page for Delani studio which acts as the portifolio, showing t
 The user can also contact them via a form and also through the various socialmedia platforms that they have included just above the footer.
 
 ## Author.
- > Eva M. Mutuku
+ > 
 ​
  ## Setup.
  + git clone to https://github.com/Harvey909090/Delani_studio.git
