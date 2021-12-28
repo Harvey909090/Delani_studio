@@ -36,13 +36,21 @@ $(document).ready(() => {
   });
 
 
+  //feedback
+  $(".btn").on("click",($event)=>{
+    let nameValue = $("#mce-FNAME").val();
+    alert(`${nameValue} we have received your message. Thank you fro reaching out to us.`)
+    $event.preventDefault()
+  });
+
+
   //disable submit button
   $('input[type="submit"]').attr('disabled', true);
     
     $('input[type="text"],input[type="email"],textarea').on('keyup',function() {
-        let textareaValue = $("#message").val();
-        let nameValue = $("#name").val();
-        let emailValue = $("#email").val();
+        let textareaValue = $("#mce-MESSAGE").val();
+        let nameValue = $("#mce-FNAME").val();
+        let emailValue = $("#mce-EMAIL").val();
 
         
         if(textareaValue != '' && nameValue != '' && emailValue != '') {
