@@ -29,15 +29,33 @@ $(document).ready(() => {
     $(".show-icon2").show();
     $(".hide-content2").hide();
   });
-  
-   //portfolio hover
+
+  //portfolio hover
   $(".card").hover(function () {
     $(this).children(".project-name").fadeToggle(1000, "linear");
   });
 
+
+  //disable submit button
+  $('input[type="submit"]').attr('disabled', true);
+    
+    $('input[type="text"],input[type="email"],textarea').on('keyup',function() {
+        let textareaValue = $("#message").val();
+        let nameValue = $("#name").val();
+        let emailValue = $("#email").val();
+
+        
+        if(textareaValue != '' && nameValue != '' && emailValue != '') {
+            $('input[type="submit"]').attr('disabled', false);
+        } else {
+            $('input[type="submit"]').attr('disabled', true);
+        }
+    });
 });
 
 const footer = document.getElementById("footer");
 const datek = new Date();
 const year = datek.getFullYear();
 footer.innerHTML = `DELANI STUDIO ${year}`;
+
+
