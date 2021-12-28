@@ -36,12 +36,12 @@ $(document).ready(() => {
   });
 
 
-  //feedback
-  //$(".btn").on("click",($event)=>{
-   // let nameValue = $("#mce-FNAME").val();
-   // alert(`${nameValue} we have received your message. Thank you fro reaching out to us.`)
-    //$event.preventDefault()
- // });
+ //feedback
+  $(".contact-form").on('submit',($event)=>{
+    $event.preventDefault();
+    let name = $("#mce-FNAME").val();
+    alert(`${name} we have received your message. Thank you for reaching out to us.`)
+  });
 
 
   //disable submit button
