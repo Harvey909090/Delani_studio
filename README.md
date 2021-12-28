@@ -17,8 +17,9 @@ The user can also contact them via a form and also through the various socialmed
  + On your browser of your choice navigate to ```index.html``` file.
 
  ## Behavior Driven Development
- 1. Under ```what we do``` on clicking on any of the 3 icons that is design, development and product           management, the icon is hiden and a description about that particular service displayed. On toggle of the description a the icon is displayed and description hidden.
+ 1. Under ```what we do``` on clicking on any of the 3 icons that is design, development & product management the icon is hiden and a description about that particular service displayed. On toggle of the description a the icon is displayed and description hidden.
  2. A user can't submit the for if any input field hasn't be fillen, this is because of any blank input field the submit button is disabled.
+ 3. Under ```portifolio``` on hovering above any of the project image a white box containing project title is displayed.
 ​
 ## Technologies used.
   * Html5
