@@ -32,5 +32,5 @@ The user can also contact them via a form and also through the various socialmed
 ​
 
 ## License
-> MIT License &copy 2021 William Mwongela
+> MIT License &copy; 2021 William Mwongela
 ​
