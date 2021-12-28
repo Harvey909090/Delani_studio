@@ -9,8 +9,8 @@ The user can also contact them via a form and also through the various socialmed
 ## Author.
  > William Mwongela
 ​
- ## Setup.
- + git clone to https://github.com/Harvey909090/Delani_studio.git
+ ## Setup & installation
+ + git clone by navigating into the terminal and to the directory where you want to save your project type this ```git clone https://github.com/Harvey909090/Delani_studio.git```
  
  + cd to the Delani_studio directory.
  
