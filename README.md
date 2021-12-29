@@ -22,11 +22,11 @@ The user can also contact them via a form and also through the various socialmed
  3. Under ```portifolio``` on hovering above any of the project image a white box containing project title is displayed.
 ​
 ## Technologies used.
-  * Html5
+  * Html
   * Bootstrap
-  * Css3
+  * Css
   * Javascript
-  * Jquery
+  * Js query
   * Markdown
   * Google fonts
 ​
